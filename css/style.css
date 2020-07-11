@@ -54,3 +54,65 @@ padding: 0px;
   /* border: 5px solid red; */
 
 }
+
+/* ------------ .footer ------------ */        
+.footer {
+  width: 100%;
+  margin: auto;
+  /* margin-bottom: 10px; */
+  display: flex;
+  align-items: center flex-start;  
+  /* 要置中，不然會貼齊到左上方; ul li 對齊上方 */
+  flex-wrap: wrap;
+  background-color: #f7f7f7;
+}
+
+.foot-title {
+color: #464646;
+font-size: 16px;
+font-weight: 500;   
+}
+.foot-item img {
+display: flex;
+width: 150px; 
+/* 圖片寬度 */
+margin: 10px 10px; 
+/* 圖片跟foot-item上側對齊*/
+} 
+.foot-item {
+display: inline-block;
+padding-top: 20px;    
+padding-bottom: 20px;                  
+width: 120px;
+margin: 10px 10px;
+font-size: 16px;   
+color: #888888;     
+}
+
+/*問題: title不見*/
+.foot-item:nth-child(1) {
+display: inline-block;
+width: 400px;
+margin-left: 50px;
+}
+
+.foot-item ul li {
+padding: 5px;
+}  
+.copyright {
+margin: 20px auto 40px auto;
+width: 90%;
+text-align: center;
+color: #888888;
+font-size: 14px;                      
+}
+.copyright::before {
+content: "";
+display: block;
+height: 2px;
+width: 90%;
+background-color: #ededed;
+margin: 10px auto 20px auto;
+}   
+
+
