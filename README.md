@@ -49,7 +49,7 @@ Solution:
 
 `align-items: flex-start`
 
-```html
+```css
 .footer {
   display: flex;
   align-items: center flex-start;  
@@ -72,7 +72,7 @@ Time: 5min
 
 Solution: `margin: 0px`
 
-```html
+```css
 .slide img {
   margin: 0px;    
 }
@@ -90,7 +90,7 @@ Time: 30min
 
 Solution: `justify-content: space-around;`
 
-```html
+```css
 .container-about{
   width: 100%;
   text-align: center;
@@ -101,3 +101,56 @@ Solution: `justify-content: space-around;`
 
 另外，隨著專案演進，我想讓about內的文字設定和下方的紅線可以被其他重複利用
 
+
+
+# Recommand
+
+Time: 90min
+
+### Question 6.
+
+avatar圖片和推薦文字分兩欄
+
+Solution: `display flex`再設margin為auto
+
+```css
+.recommand-column {
+  display: flex;
+  /* 問題：無法分兩列 */
+  width: 60%;
+  margin: auto;
+}
+```
+
+
+
+### Question 7.
+
+此欄位的title想要引用之前`<div>`about的設定，但是因為about已設寬度`width: 1200px`，強加設定後此title會往左偏移
+
+```css
+.about {
+  width: 1200px;
+  color: #555555;          
+  margin-top: 50px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+```
+
+用註解比對發現是寬度的問題
+
+```scss
+.recommandation .about-course {
+    text-align: center;
+    color: #555555;  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* width: 1200px; */
+    font-size: 28px;
+    font-weight: 400;          
+}
+```
+
+修了很久為了不想讓設定一直跑掉，決定暫時不要整理程式嗎

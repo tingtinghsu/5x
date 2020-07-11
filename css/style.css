@@ -66,12 +66,13 @@ a:hover {
 }
 
 .about {
-  color: #555555;          
-  margin-top: 50px;           
   width: 1200px;
+  color: #555555;          
+  margin-top: 50px;
   text-align: center;
   font-size: 28px;
   font-weight: 400;
+
 }
 
 h2::after{
@@ -96,6 +97,43 @@ h2::after{
   margin: auto;
 }
 
+/* ------------ .recommand ------------ */ 
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.avatar-name {
+  color: #da3d46;
+  font-size: 24px;
+  margin: 10px 0;  
+}
+
+.recommandation .about-course {
+    text-align: center;
+    color: #555555;  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* width: 1200px; */
+    font-size: 28px;
+    font-weight: 400;          
+}
+.recommandation {
+  background-color: #f7f7f7;
+  padding-top:  30px;
+  padding-bottom:  60px;
+}
+
+.recommand-column {
+  display: flex;
+  /* 問題：無法分兩列 */
+  width: 60%;
+  margin: auto;
+}
+.recommand-people, .recommand-word {
+  padding: 0 30px;
+}
 
 /* ------------ .footer ------------ */        
 .footer {
