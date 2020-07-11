@@ -70,11 +70,34 @@ Time: 5min
 
 去掉空白問題，Banner下方有一條白白的線
 
-Solution:
+Solution: `margin: 0px`
 
 ```html
 .slide img {
   margin: 0px;    
 }
 ```
+
+
+
+# About
+
+Time: 30min
+
+### Question 5.
+
+圖片分散對齊問題
+
+Solution: `justify-content: space-around;`
+
+```html
+.container-about{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+```
+
+另外，隨著專案演進，我想讓about內的文字設定和下方的紅線可以被其他重複利用
 

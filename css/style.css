@@ -55,6 +55,48 @@ a:hover {
 
 }
 
+/* ------------ .container-about ------------ */
+.container-about{
+  width: 100%;
+  text-align: center;            
+  padding-bottom: 50px;
+  display: flex;
+  background-color: #f7f7f7;
+  justify-content: space-around;
+}
+
+.about {
+  color: #555555;          
+  margin-top: 50px;           
+  width: 1200px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+h2::after{
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100px;
+  background-color: #da3d46;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;          
+}
+
+.list {        
+  display: inline-block;
+  width: 270px;
+}
+.list img {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  margin: auto;
+}
+
+
 /* ------------ .footer ------------ */        
 .footer {
   width: 100%;
