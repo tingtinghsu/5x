@@ -105,7 +105,7 @@ Solution: `justify-content: space-around;`
 
 # Recommand
 
-Time: 90min
+Time: 30min
 
 ### Question 6.
 
@@ -154,3 +154,36 @@ Solution: `display flex`再設margin為auto
 ```
 
 修了很久為了不想讓設定一直跑掉，決定暫時不整理這部分的程式嗎
+
+
+
+# Know-More
+
+## Question 8.
+
+Time: 30min
+
+Social網站兩個圓圖片的置中對齊，而且中間要留空白
+
+Solution: 
+
+```css
+  .know-more {
+  text-align: center; 
+  padding: 50px;       
+  }
+```
+
+
+
+img再用padding隔開
+
+```css
+  .know-social img {       
+    padding-right: 30px;
+    /* 兩個圖間隔 */          
+    padding-bottom: 50px;
+    /* 把圖排在中間 */
+  }     
+```
+

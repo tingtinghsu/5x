@@ -135,6 +135,34 @@ h2::after{
   padding: 0 30px;
 }
 
+/* ------------ .know-more ------------ */        
+
+        .list p, .know-content {
+          padding: 10px;
+        }
+        .know-more {
+          text-align: center; 
+          padding: 50px;       
+        }
+
+        .know-title {
+            color: #555555;          
+            margin: 30px auto 30px;           
+            font-size: 28px;
+            font-weight: 400;
+        }
+        .know-social img {
+      /* 把圖排在中間 */          
+          padding-right: 30px;
+      /* 兩個圖間隔 */          
+          padding-bottom: 50px;
+      /* 把圖排在中間 */
+        }     
+
+        .know-content a {
+          color: #da3d46;
+        }
+
 /* ------------ .footer ------------ */        
 .footer {
   width: 100%;
