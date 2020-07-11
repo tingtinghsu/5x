@@ -45,7 +45,9 @@ Solution:
 
 讓footer的六欄項目全部靠上
 
-Solution:`align-items: flex-start`
+Solution:
+
+`align-items: flex-start`
 
 ```html
 .footer {
@@ -57,4 +59,22 @@ Solution:`align-items: flex-start`
 ```
 
 
+
+# Banner
+
+Time: 5min
+
+## Issue solved
+
+### Question 4.
+
+去掉空白問題，Banner下方有一條白白的線
+
+Solution:
+
+```html
+.slide img {
+  margin: 0px;    
+}
+```
 
