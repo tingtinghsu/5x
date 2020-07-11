@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body, html {
+  color: rgb(85, 85, 85);
+  font-family: 微軟正黑體, arial;
+  line-height: 24px;
+  height: auto;
+  /* font-size: 20px; */
+}
+a {
+  color: #868686;
+    text-decoration: none;
+}
+a:hover {
+  color: #da3d46;            
+}
+
+/* ------------ .header ----------- */
+.header {
+  width: 100%;
+  /* width: 1200px; */
+  display: flex;
+  justify-content: space-between; /*讓左右兩欄靠外*/
+  font-size: 0;
+  box-sizing: border-box;  /* 加上padding不超過1200px */
+  padding: 5px;
+}
+
+.slide img {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;          
+}
+.logo {
+  font-size: 18px;
+  color: #da3d46;     
+  padding: 30px;     
+  /* 上下留寬 */
+}
+.nav {
+  font-size: 18px;
+  color: #868686;
+  padding: 30px; 
+  /* margin-left: 420px;  靠右可能還有更好的解法 */
+}
+.header .nav ul li{
+  display: inline-block;
+  padding-left: 10px;   /* list間距*/
+  padding-right: 10px;             
+  /* border: 5px solid red; */
+
+}
