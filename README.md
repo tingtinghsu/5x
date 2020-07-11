@@ -141,8 +141,8 @@ Solution: `display flex`再設margin為auto
 
 用註解比對發現是寬度的問題
 
-```scss
-.recommandation .about-course {
+```css
+.recommand-header, .course-header {
     text-align: center;
     color: #555555;  
     margin-top: 50px;
@@ -185,5 +185,43 @@ img再用padding隔開
     padding-bottom: 50px;
     /* 把圖排在中間 */
   }     
+```
+
+
+
+# Course
+
+## Question 9.
+
+Time: 30min
+
+跟recommand區塊一樣有標題置中問題，所以一起套用同樣的css
+
+```css
+.recommand-course, .course-about {
+    text-align: center;
+    color: #555555;  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* width: 1200px; */
+    font-size: 28px;
+    font-weight: 400;          
+}
+```
+
+滑鼠動畫效果 `box-shadow`
+
+[Ref: MDN](https://developer.mozilla.org/zh-TW/docs/Web/CSS/box-shadow)
+
+```css
+.course-group a:hover  {
+     box-shadow: 0 0 5px 
+   rgba(0, 0, 0, .3);
+     transition: 0.2s; 
+
+  }
+.course-link:hover {
+    color: gray;
+}
 ```
 

@@ -72,7 +72,6 @@ a:hover {
   text-align: center;
   font-size: 28px;
   font-weight: 400;
-
 }
 
 h2::after{
@@ -97,6 +96,88 @@ h2::after{
   margin: auto;
 }
 
+/* ------------ .container-course ------------ */    
+
+/* 問題： 標題無法置中 */
+/* 解法：h2移到list外面 */
+
+.container-course {
+  background-color: #fff;
+}
+.item-group {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+
+}
+.item {
+  width: 350px;
+  height: 420px;
+  border: 1px
+  solid #f7f7f7;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.content {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.item img{
+  vertical-align: middle;
+  width: 100%;
+  /* width: 100%; */
+}
+  .content p {
+  background-color: #da3d46;
+  color: #fff;
+  font-size: 90%;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 80px;
+  border-radius: 5px;
+}
+.time span {
+  display: inline-block;
+  background-color: #f7f7f7;
+  padding: 2px;
+  border: 1px solid #f7f7f7;
+  border-radius: .25rem;
+  margin: 5px;
+}
+
+h4, small {
+  font-size: 90%;
+  font-weight: 400;
+}
+
+.course-group a:hover  {
+     box-shadow: 0 0 5px 
+   rgba(0, 0, 0, .3);
+     transition: 0.2s; 
+
+  }
+.course-link:hover {
+    color: gray;
+}
+.course-group .more a {
+display: block;
+text-align: center;
+background-color: #da3d46;
+width: 250px;
+padding: 20px 0;
+border-radius: 10px;
+margin: 50px auto;
+color: #fff;
+font-size: 20px;
+}
+
+
 /* ------------ .recommand ------------ */ 
 
 .avatar {
@@ -110,7 +191,7 @@ h2::after{
   margin: 10px 0;  
 }
 
-.recommandation .about-course {
+.recommand-header, .course-header {
     text-align: center;
     color: #555555;  
     margin-top: 50px;
@@ -151,12 +232,10 @@ h2::after{
             font-size: 28px;
             font-weight: 400;
         }
-        .know-social img {
-      /* 把圖排在中間 */          
+        .know-social img {       
           padding-right: 30px;
       /* 兩個圖間隔 */          
           padding-bottom: 50px;
-      /* 把圖排在中間 */
         }     
 
         .know-content a {
