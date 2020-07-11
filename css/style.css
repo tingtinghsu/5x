@@ -112,7 +112,7 @@ h2::after{
 }
 .item {
   width: 350px;
-  height: 420px;
+  height: 450px;
   border: 1px
   solid #f7f7f7;
   margin-left: 20px;
@@ -145,7 +145,7 @@ h2::after{
 .time span {
   display: inline-block;
   background-color: #f7f7f7;
-  padding: 2px;
+  padding: 5px;
   border: 1px solid #f7f7f7;
   border-radius: .25rem;
   margin: 5px;
@@ -154,6 +154,14 @@ h2::after{
 h4, small {
   font-size: 90%;
   font-weight: 400;
+}
+h4::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #f7f7f7;
+  margin: 3px auto 3px auto;
 }
 
 .course-group a:hover  {
