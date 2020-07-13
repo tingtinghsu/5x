@@ -105,7 +105,7 @@ Solution: `justify-content: space-around;`
 
 # Recommand
 
-Time: 30min
+Time: 60min
 
 ### Question 6.
 
@@ -161,7 +161,7 @@ Solution: `display flex`再設margin為auto
 
 ## Question 8.
 
-Time: 30min
+Time: 60min
 
 Social網站兩個圓圖片的置中對齊，而且中間要留空白
 
@@ -193,7 +193,7 @@ img再用padding隔開
 
 ## Question 9.
 
-Time: 30min
+Time: 60min
 
 跟recommand區塊一樣有標題置中問題，所以一起套用同樣的css
 
